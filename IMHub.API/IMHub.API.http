@@ -1,0 +1,6 @@
+@IMHub.API_HostAddress = http://localhost:5299
+
+GET {{IMHub.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

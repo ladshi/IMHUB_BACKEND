@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\infrastructure layer\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|solutionrelative:infrastructure layer\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF6AB0C-7568-4FC7-A8E3-4B6A36B835C8}|ApplicationLayer\\IMHub.ApplicationLayer.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\applicationlayer\\features\\auth\\commands\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF6AB0C-7568-4FC7-A8E3-4B6A36B835C8}|ApplicationLayer\\IMHub.ApplicationLayer.csproj|solutionrelative:applicationlayer\\features\\auth\\commands\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92C00C3-DECE-4FCF-AF07-38102765AA1D}|IMHub.API\\IMHub.API.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\imhub.api\\extensions\\authenticationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92C00C3-DECE-4FCF-AF07-38102765AA1D}|IMHub.API\\IMHub.API.csproj|solutionrelative:imhub.api\\extensions\\authenticationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92C00C3-DECE-4FCF-AF07-38102765AA1D}|IMHub.API\\IMHub.API.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\imhub.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92C00C3-DECE-4FCF-AF07-38102765AA1D}|IMHub.API\\IMHub.API.csproj|solutionrelative:imhub.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\infrastructure layer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|solutionrelative:infrastructure layer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\infrastructure layer\\authendication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|solutionrelative:infrastructure layer\\authendication\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\infrastructure layer\\services\\localfilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|solutionrelative:infrastructure layer\\services\\localfilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92C00C3-DECE-4FCF-AF07-38102765AA1D}|IMHub.API\\IMHub.API.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\imhub.api\\controllers\\superadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92C00C3-DECE-4FCF-AF07-38102765AA1D}|IMHub.API\\IMHub.API.csproj|solutionrelative:imhub.api\\controllers\\superadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\infrastructure layer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|solutionrelative:infrastructure layer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\infrastructure layer\\infrastructureserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|solutionrelative:infrastructure layer\\infrastructureserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\infrastructure layer\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|solutionrelative:infrastructure layer\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF6AB0C-7568-4FC7-A8E3-4B6A36B835C8}|ApplicationLayer\\IMHub.ApplicationLayer.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\applicationlayer\\common\\interfaces\\irepositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF6AB0C-7568-4FC7-A8E3-4B6A36B835C8}|ApplicationLayer\\IMHub.ApplicationLayer.csproj|solutionrelative:applicationlayer\\common\\interfaces\\irepositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|c:\\users\\hp\\desktop\\imhub\\imhub\\infrastructure layer\\data\\entityconfiguration\\identity\\userprofileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608CC1CA-9CFF-4100-978F-73346F99BADB}|Infrastructure Layer\\IMHub.InfrastructureLayer.csproj|solutionrelative:infrastructure layer\\data\\entityconfiguration\\identity\\userprofileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 134,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SuperAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\IMHub.API\\Controllers\\SuperAdminController.cs",
+              "RelativeDocumentMoniker": "IMHub.API\\Controllers\\SuperAdminController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\IMHub.API\\Controllers\\SuperAdminController.cs",
+              "RelativeToolTip": "IMHub.API\\Controllers\\SuperAdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:21:24.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\IMHub.API\\Extensions\\AuthenticationServiceExtensions.cs",
+              "RelativeDocumentMoniker": "IMHub.API\\Extensions\\AuthenticationServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\IMHub.API\\Extensions\\AuthenticationServiceExtensions.cs",
+              "RelativeToolTip": "IMHub.API\\Extensions\\AuthenticationServiceExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:19:42.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocalFileStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Services\\LocalFileStorageService.cs",
+              "RelativeDocumentMoniker": "Infrastructure Layer\\Services\\LocalFileStorageService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Services\\LocalFileStorageService.cs",
+              "RelativeToolTip": "Infrastructure Layer\\Services\\LocalFileStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:18:13.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure Layer\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure Layer\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:18:04.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure Layer\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Infrastructure Layer\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAC0AAACAAQAAAAAbwAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:17:53.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InfrastructureServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\InfrastructureServiceExtension.cs",
+              "RelativeDocumentMoniker": "Infrastructure Layer\\InfrastructureServiceExtension.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\InfrastructureServiceExtension.cs",
+              "RelativeToolTip": "Infrastructure Layer\\InfrastructureServiceExtension.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwC8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:17:17.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure Layer\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure Layer\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:17:03.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure Layer\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Infrastructure Layer\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:14:33.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\ApplicationLayer\\Common\\Interfaces\\IRepositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Common\\Interfaces\\IRepositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\ApplicationLayer\\Common\\Interfaces\\IRepositories\\IGenericRepository.cs",
+              "RelativeToolTip": "ApplicationLayer\\Common\\Interfaces\\IRepositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:12:41.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Authendication\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Infrastructure Layer\\Authendication\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Authendication\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "Infrastructure Layer\\Authendication\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:11:28.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\ApplicationLayer\\Features\\Auth\\Commands\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Features\\Auth\\Commands\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\ApplicationLayer\\Features\\Auth\\Commands\\LoginCommandHandler.cs",
+              "RelativeToolTip": "ApplicationLayer\\Features\\Auth\\Commands\\LoginCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:10:47.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserProfileConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Data\\EntityConfiguration\\Identity\\UserProfileConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure Layer\\Data\\EntityConfiguration\\Identity\\UserProfileConfiguration.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\Infrastructure Layer\\Data\\EntityConfiguration\\Identity\\UserProfileConfiguration.cs",
+              "RelativeToolTip": "Infrastructure Layer\\Data\\EntityConfiguration\\Identity\\UserProfileConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:09:44.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\IMHub.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "IMHub.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\IMHub\\IMHub\\IMHub.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "IMHub.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T17:08:56.785Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\obj\Debug\net9.0\IMHub.ApplicationLayer.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\obj\Debug\net9.0\IMHub.ApplicationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\obj\Debug\net9.0\IMHub.ApplicationLayer.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\obj\Debug\net9.0\IMHub.ApplicationLayer.AssemblyInfo.cs
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\obj\Debug\net9.0\IMHub.ApplicationLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\bin\Debug\net9.0\IMHub.ApplicationLayer.deps.json
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\bin\Debug\net9.0\IMHub.ApplicationLayer.dll
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\bin\Debug\net9.0\IMHub.ApplicationLayer.pdb
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\bin\Debug\net9.0\IMHub.Domain.dll
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\bin\Debug\net9.0\IMHub.Domain.pdb
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\obj\Debug\net9.0\IMHub.Ap.DA4E9EE0.Up2Date
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\obj\Debug\net9.0\IMHub.ApplicationLayer.dll
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\obj\Debug\net9.0\refint\IMHub.ApplicationLayer.dll
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\obj\Debug\net9.0\IMHub.ApplicationLayer.pdb
+C:\Users\HP\Desktop\IMHub\IMHub\ApplicationLayer\obj\Debug\net9.0\ref\IMHub.ApplicationLayer.dll
