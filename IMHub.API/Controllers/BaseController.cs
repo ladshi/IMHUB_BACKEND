@@ -115,7 +115,7 @@ namespace IMHub.API.Controllers
         /// Executes a MediatR command/query that returns Unit (void) with error handling.
         /// </summary>
         protected async Task<ActionResult> HandleRequestAsync(
-            IRequest request,
+            IRequest<Unit> request,
             string? successMessage = null)
         {
             try

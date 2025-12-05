@@ -2,7 +2,7 @@ using IMHub.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace InfrastructureLayer.Data.EntityConfiguration.Templates
+namespace IMHub.Infrastructure.Data.EntityConfiguration.Templates
 {
     public class TemplatePageConfiguration : IEntityTypeConfiguration<TemplatePage>
     {

@@ -10,5 +10,6 @@ namespace IMHub.ApplicationLayer.Common.Interfaces.Repositories
         Task<bool> ExistsByEmailAsync(string email, CancellationToken cancellationToken = default);
         Task<User?> GetByEmailAsync(string email, CancellationToken cancellationToken = default);
         Task<IReadOnlyList<User>> GetByOrganizationIdAsync(int organizationId, CancellationToken cancellationToken = default);
+        Task<int> ActivateUsersByOrganizationIdAsync(int organizationId, CancellationToken cancellationToken = default);
     }
 }

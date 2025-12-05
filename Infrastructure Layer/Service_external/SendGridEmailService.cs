@@ -1,5 +1,4 @@
-﻿using IMHub.Application.Common.Interfaces;
-using IMHub.ApplicationLayer.Common.Interfaces.Infrastruture;
+﻿using IMHub.ApplicationLayer.Common.Interfaces.Infrastruture;
 using Microsoft.Extensions.Configuration;
 using SendGrid;
 using SendGrid.Helpers.Mail;

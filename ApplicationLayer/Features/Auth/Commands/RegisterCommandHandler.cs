@@ -80,7 +80,8 @@ namespace IMHub.ApplicationLayer.Features.Auth.Commands
                 Name = user.Name,
                 Email = user.Email,
                 OrganizationId = organization.Id,
-                Message = "Registration successful. Please wait for admin approval."
+                Message = "Registration successful! Your account is pending admin approval. You will be able to login once an administrator approves your organization. Please wait for the approval email.",
+                RequiresApproval = true
             };
         }
     }

@@ -46,15 +46,21 @@ namespace IMHub.API
             // Database initialization
             using (var scope = app.Services.CreateScope())
             {
+                var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
                 try
                 {
+                    logger.LogInformation("Starting database initialization...");
                     var initializer = scope.ServiceProvider.GetRequiredService<DbInitializer>();
                     await initializer.RunAsync();
+                    logger.LogInformation("Database initialization completed successfully");
                 }
                 catch (Exception ex)
                 {
-                    var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
                     logger.LogError(ex, "An error occurred while initializing the database");
+                    logger.LogError("Application will continue, but database may not be properly initialized");
+                    logger.LogError("Please check database connection and restart the application");
+                    // Note: In production, you might want to fail fast here
+                    // throw; // Uncomment to fail fast on database initialization errors
                 }
             }
 

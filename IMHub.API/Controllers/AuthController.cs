@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace IMHub.API.Controllers
 {
+    [Route("api/auth")]
     public class AuthController : BaseController
     {
         public AuthController(IMediator mediator, ILogger<BaseController> logger)

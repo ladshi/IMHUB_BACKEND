@@ -1,6 +1,6 @@
 using IMHub.ApplicationLayer.Common.Interfaces.Infrastruture;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Hosting;
 
 namespace IMHub.Infrastructure.Services
 {
@@ -8,10 +8,10 @@ namespace IMHub.Infrastructure.Services
     {
         private readonly string _webRootPath;
 
-        // Note: Pass IWebHostEnvironment to get the 'wwwroot' path
-        public LocalFileStorageService(IWebHostEnvironment environment)
+        // Note: Using IHostEnvironment - WebRootPath is not available, so we use ContentRootPath
+        public LocalFileStorageService(IHostEnvironment environment)
         {
-            _webRootPath = environment.WebRootPath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+            _webRootPath = Path.Combine(environment.ContentRootPath, "wwwroot");
         }
 
         public async Task<string> SaveFileAsync(IFormFile file, string folderName)

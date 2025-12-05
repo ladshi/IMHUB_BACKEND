@@ -8,7 +8,6 @@ using IMHub.Infrastructure.Repositories;
 using IMHub.Infrastructure.Services;
 using IMHub.Infrastructure.Authentication;
 using IMHub.Infrastructure.Data.DbInitializers_Seeds;
-using IMHub.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
@@ -29,8 +28,17 @@ namespace IMHub.Infrastructure
                 // Retrieve the interceptor
                 var interceptor = sp.GetRequiredService<ISaveChangesInterceptor>();
 
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"))
-                       .AddInterceptors(interceptor); // <--- ATTACH IT HERE
+                var connectionString = configuration.GetConnectionString("DefaultConnection");
+                
+                options.UseSqlServer(connectionString, sqlOptions =>
+                {
+                    // Enable retry on failure for transient errors
+                    sqlOptions.EnableRetryOnFailure(
+                        maxRetryCount: 5,
+                        maxRetryDelay: TimeSpan.FromSeconds(30),
+                        errorNumbersToAdd: null);
+                })
+                .AddInterceptors(interceptor); // <--- ATTACH IT HERE
             });
 
             services.AddScoped<DbInitializer>();

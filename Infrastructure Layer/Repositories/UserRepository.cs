@@ -56,5 +56,19 @@ namespace IMHub.Infrastructure.Repositories
                 .Where(u => u.OrganizationId == organizationId)
                 .ToListAsync(cancellationToken);
         }
+
+        public async Task<int> ActivateUsersByOrganizationIdAsync(int organizationId, CancellationToken cancellationToken = default)
+        {
+            // ExecuteUpdateAsync bypasses global query filters, so we need to explicitly check IsDeleted
+            // Also, ExecuteUpdateAsync executes directly in the database, bypassing change tracking
+            var result = await _context.Users
+                .Where(u => u.OrganizationId == organizationId && !u.IsActive && !u.IsDeleted)
+                .ExecuteUpdateAsync(setters => setters.SetProperty(u => u.IsActive, true), cancellationToken);
+            
+            // Clear change tracker to ensure fresh data on next query
+            _context.ChangeTracker.Clear();
+            
+            return result;
+        }
     }
 }

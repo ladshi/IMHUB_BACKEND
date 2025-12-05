@@ -2,7 +2,7 @@ using IMHub.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace InfrastructureLayer.Data.EntityConfiguration.Content
+namespace IMHub.Infrastructure.Data.EntityConfiguration.Content
 {
     public class CsvUploadConfiguration : IEntityTypeConfiguration<CsvUpload>
     {
