@@ -5,7 +5,7 @@ using IMHub.Infrastructure.Authentication;
 
 namespace IMHub.API.Extensions
 {
-    public class AuthenticationServiceExtensions
+    public static class AuthenticationServiceExtensions
     {
         public static IServiceCollection AddApiAuthentication(this IServiceCollection services, IConfiguration configuration)
         {
