@@ -1,7 +1,6 @@
 using IMHub.ApplicationLayer.Common.Interfaces.IRepositories;
 using IMHub.ApplicationLayer.Common.Models;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
 
 namespace IMHub.ApplicationLayer.Features.SuperAdmin.Organizations.Queries
 {

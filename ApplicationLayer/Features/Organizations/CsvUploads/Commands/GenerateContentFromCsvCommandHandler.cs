@@ -1,8 +1,9 @@
 using IMHub.ApplicationLayer.Common.Interfaces;
 using IMHub.ApplicationLayer.Common.Interfaces.IRepositories;
+using IMHub.ApplicationLayer.Features.Organizations.Contents;
 using IMHub.Domain.Entities;
 using MediatR;
-using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 using System.Text;
 using System.Text.Json;
 
@@ -12,16 +13,16 @@ namespace IMHub.ApplicationLayer.Features.Organizations.CsvUploads.Commands
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly ICurrentUserService _currentUserService;
-        private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IHostEnvironment _hostEnvironment;
 
         public GenerateContentFromCsvCommandHandler(
             IUnitOfWork unitOfWork,
             ICurrentUserService currentUserService,
-            IWebHostEnvironment webHostEnvironment)
+            IHostEnvironment hostEnvironment)
         {
             _unitOfWork = unitOfWork;
             _currentUserService = currentUserService;
-            _webHostEnvironment = webHostEnvironment;
+            _hostEnvironment = hostEnvironment;
         }
 
         public async Task<List<ContentDto>> Handle(GenerateContentFromCsvCommand request, CancellationToken cancellationToken)
@@ -181,7 +182,7 @@ namespace IMHub.ApplicationLayer.Features.Organizations.CsvUploads.Commands
             var csvData = new List<Dictionary<string, string>>();
 
             // Convert relative URL to full file path
-            var webRootPath = _webHostEnvironment.WebRootPath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+            var webRootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
             var filePath = Path.Combine(webRootPath, fileUrl.TrimStart('/'));
 
             // Read CSV file from local storage

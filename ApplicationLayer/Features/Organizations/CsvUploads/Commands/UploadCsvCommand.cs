@@ -1,5 +1,6 @@
 using MediatR;
 using Microsoft.AspNetCore.Http;
+using IMHub.ApplicationLayer.Features.Organizations.CsvUploads;
 
 namespace IMHub.ApplicationLayer.Features.Organizations.CsvUploads.Commands
 {

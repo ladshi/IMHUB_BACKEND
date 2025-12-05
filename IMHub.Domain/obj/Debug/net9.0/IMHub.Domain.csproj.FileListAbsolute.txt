@@ -9,3 +9,15 @@ C:\Users\HP\Desktop\IMHub\IMHub\IMHub.Domain\obj\Debug\net9.0\IMHub.Domain.dll
 C:\Users\HP\Desktop\IMHub\IMHub\IMHub.Domain\obj\Debug\net9.0\refint\IMHub.Domain.dll
 C:\Users\HP\Desktop\IMHub\IMHub\IMHub.Domain\obj\Debug\net9.0\IMHub.Domain.pdb
 C:\Users\HP\Desktop\IMHub\IMHub\IMHub.Domain\obj\Debug\net9.0\ref\IMHub.Domain.dll
+C:\Users\ASUS\Desktop\Ladhu project\IMHUB_BACKEND\IMHub.Domain\bin\Debug\net9.0\IMHub.Domain.deps.json
+C:\Users\ASUS\Desktop\Ladhu project\IMHUB_BACKEND\IMHub.Domain\bin\Debug\net9.0\IMHub.Domain.dll
+C:\Users\ASUS\Desktop\Ladhu project\IMHUB_BACKEND\IMHub.Domain\bin\Debug\net9.0\IMHub.Domain.pdb
+C:\Users\ASUS\Desktop\Ladhu project\IMHUB_BACKEND\IMHub.Domain\obj\Debug\net9.0\IMHub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Ladhu project\IMHUB_BACKEND\IMHub.Domain\obj\Debug\net9.0\IMHub.Domain.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Ladhu project\IMHUB_BACKEND\IMHub.Domain\obj\Debug\net9.0\IMHub.Domain.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Ladhu project\IMHUB_BACKEND\IMHub.Domain\obj\Debug\net9.0\IMHub.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Ladhu project\IMHUB_BACKEND\IMHub.Domain\obj\Debug\net9.0\IMHub.Domain.sourcelink.json
+C:\Users\ASUS\Desktop\Ladhu project\IMHUB_BACKEND\IMHub.Domain\obj\Debug\net9.0\IMHub.Domain.dll
+C:\Users\ASUS\Desktop\Ladhu project\IMHUB_BACKEND\IMHub.Domain\obj\Debug\net9.0\refint\IMHub.Domain.dll
+C:\Users\ASUS\Desktop\Ladhu project\IMHUB_BACKEND\IMHub.Domain\obj\Debug\net9.0\IMHub.Domain.pdb
+C:\Users\ASUS\Desktop\Ladhu project\IMHUB_BACKEND\IMHub.Domain\obj\Debug\net9.0\ref\IMHub.Domain.dll

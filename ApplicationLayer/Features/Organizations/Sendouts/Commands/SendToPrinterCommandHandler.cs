@@ -1,8 +1,11 @@
 using IMHub.ApplicationLayer.Common.Interfaces;
 using IMHub.ApplicationLayer.Common.Interfaces.IRepositories;
+using IMHub.ApplicationLayer.Features.Organizations.Sendouts;
 using IMHub.Domain.Entities;
 using IMHub.Domain.Enums;
 using MediatR;
+using Microsoft.Extensions.Http;
+using Microsoft.Extensions.Logging;
 using System.Net.Http.Json;
 using System.Text.Json;
 

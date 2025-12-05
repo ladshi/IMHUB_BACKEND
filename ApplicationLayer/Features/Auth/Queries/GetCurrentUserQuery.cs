@@ -1,4 +1,5 @@
 using MediatR;
+using IMHub.ApplicationLayer.Features.Auth.Commands;
 
 namespace IMHub.ApplicationLayer.Features.Auth.Queries
 {

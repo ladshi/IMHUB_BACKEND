@@ -41,7 +41,19 @@ namespace IMHub.Infrastructure.Repositories
 
         public Task UpdateAsync(T entity)
         {
-            _context.Entry(entity).State = EntityState.Modified;
+            // If entity is already tracked, just mark as modified
+            var entry = _context.Entry(entity);
+            if (entry.State == EntityState.Detached)
+            {
+                // Entity is not tracked, attach and mark as modified
+                _context.Set<T>().Attach(entity);
+                entry.State = EntityState.Modified;
+            }
+            else
+            {
+                // Entity is already tracked, just mark as modified
+                entry.State = EntityState.Modified;
+            }
             return Task.CompletedTask;
         }
 

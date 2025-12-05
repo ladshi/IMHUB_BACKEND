@@ -1,4 +1,4 @@
-﻿using IMHub.Domain.Common;
+using IMHub.Domain.Common;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -47,3 +47,4 @@ namespace IMHub.Domain.Entities
         public string? ProfilePictureUrl { get; set; } // Blob URL
     }
 }
+

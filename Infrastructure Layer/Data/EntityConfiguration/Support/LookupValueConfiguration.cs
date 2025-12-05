@@ -2,7 +2,7 @@ using IMHub.Domain.Entities.Support;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace InfrastructureLayer.Data.EntityConfiguration.Support
+namespace IMHub.Infrastructure.Data.EntityConfiguration.Support
 {
     public class LookupValueConfiguration : IEntityTypeConfiguration<LookupValue>
     {
